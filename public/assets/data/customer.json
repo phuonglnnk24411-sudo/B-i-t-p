@@ -1,0 +1,49 @@
+[
+  {
+    "CustomerTypeId": 1,
+    "CustomterTypeName": "VIP",
+    "Customers": [
+      {
+        "Id": "Cus123",
+        "Name": "Obama",
+        "Email": "obama@gmail.com",
+        "Age": 67,
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/President_Barack_Obama.jpg"
+      },
+      {
+        "Id": "Cus456",
+        "Name": "Kim jong Un",
+        "Email": "unun@gmail.com",
+        "Age": 38,
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/0/06/Kim_Jong-un_and_Vladimir_Putin_%282023-09-13%29_12_%28cropped%29.jpg?utm_source=vi.wikipedia.org&utm_campaign=index&utm_content=original"
+      },
+      {
+        "Id": "Cus789",
+        "Name": "Putin",
+        "Email": "putin@gmail.com",
+        "Age": 77,
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Vladimir_Putin_%282020-02-20%29.jpg"
+      }
+    ]
+  },
+  {
+    "CustomerTypeId": 2,
+    "CustomterTypeName": "Normal",
+    "Customers": [
+      {
+        "Id": "Cus000",
+        "Name": "Hồ Cẩm Đào",
+        "Email": "hodao@gmail.com",
+        "Age": 16,
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Chinese_President_Hu_Jintao_in_2011.jpg"
+      },
+      {
+        "Id": "Cus111",
+        "Name": "Tập Cận Bình",
+        "Email": "binhbinh@gmail.com",
+        "Age": 67,
+        "Image": "https://upload.wikimedia.org/wikipedia/commons/3/32/Xi_Jinping_2019.jpg"
+      }
+    ]
+  }
+]

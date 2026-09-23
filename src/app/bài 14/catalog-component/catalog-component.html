@@ -1,0 +1,32 @@
+<table border="1">
+  <tr>
+    <th>Ma Danh Muc</th>
+    <th>Ten Danh Muc</th>
+  </tr>
+  <ng-container *ngFor="let cate of categories">
+    <tr>
+      <td>{{ cate.Cateid }}</td>
+      <td>{{ cate.CateName }}</td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <table border="1" width="100%">
+          <tr>
+            <th>Ma San Pham</th>
+            <th>Ten San Pham</th>
+            <th>Gia San Pham</th>
+            <th>Picture</th>
+          </tr>
+          <tr *ngFor="let prod of cate.Products">
+            <td>{{ prod.ProductId }}</td>
+            <td>{{ prod.ProductName }}</td>
+            <td>{{ prod.Price }}</td>
+            <td>
+              <img [src]="prod.Image" width="50" />
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </ng-container>
+</table>
