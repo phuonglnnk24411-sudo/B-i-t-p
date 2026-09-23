@@ -1,0 +1,16 @@
+import { Service } from '@angular/core';
+import { Product } from '../classes/IProduct';
+
+@Service()
+export class ProductService {
+    products:Product[]=[
+        {id:1,name:"Iphone 14", price:30,image:"https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/42/370982/iphone-18-pro-max-do-burgundy-1-639246098159595347.jpg"},
+        {id:2,name:"Samsung Galaxy S23", price:25,image:"https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/42/370982/iphone-18-pro-max-do-burgundy-1-639246098159595347.jpg"},
+        {id:3,name:"Samsung 8", price:45,image:"https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/42/370982/iphone-18-pro-max-do-burgundy-1-639246098159595347.jpg"},
+        {id:4,name:"Samsung 8", price:-35,image:"https://cdnv2.tgdd.vn/mwg-static/tgdd/Products/Images/42/370982/iphone-18-pro-max-do-burgundy-1-639246098159595347.jpg"},
+      ]
+    constructor(){}
+    getProduct(){
+        return this.products
+    }
+}
