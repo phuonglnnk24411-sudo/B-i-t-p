@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Customer } from '../customer'; // Kiểm tra đúng đường dẫn tới file Customer service
+import { Customer } from '../customer';
 
 @Component({
   selector: 'app-group-customer',
@@ -13,7 +13,7 @@ export class GroupCustomer implements OnInit {
   constructor(private customerService: Customer) {}
 
   ngOnInit(): void {
-    // Gọi Service lấy dữ liệu thật từ file JSON
+
     this.customerService.getCustomers().subscribe({
       next: (data) => {
         this.customerGroups = data;

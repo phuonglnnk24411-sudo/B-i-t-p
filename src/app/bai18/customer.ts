@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root' // Bắt buộc phải có dòng này để AppModule nhận diện
+  providedIn: 'root'
 })
 export class Customer {
   private jsonUrl = 'assets/data/customer.json';
